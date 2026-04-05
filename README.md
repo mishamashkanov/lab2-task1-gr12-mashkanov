@@ -1,11 +1,16 @@
-# Overview
+# Лабораторная работа №2
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+**Выполнил:** Машканов Михаил, ФПМИ, 2 курс, группа 12
+**Вариант:** 16
 
-# Usage
+## Overview
+Консольное приложение на С для подсчета количества заданной буквы в трех предложениях.
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+## Usage
+1. Запустить программу.
+2. Ввести символ для поиска.
+3. Ввести три строки текста.
 
-# Building
-
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+## Building
+Сборка выполняется командой:
+gcc src/main.c src/utils.c -Iinclude -o bin/main
