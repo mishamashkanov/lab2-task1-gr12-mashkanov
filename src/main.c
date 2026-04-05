@@ -1,8 +1,8 @@
-/* hello.c */
 #include <stdio.h>
 
-void main (void)
-{
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+int main(int argc, char *argv[]) {
+		printf("--- Проверка работы программы ---\n");
+		printf("Базовая версия запущена успешно.\n");
+		printf("Передано аргументов: %d\n", argc);
+		return 0;
 }
